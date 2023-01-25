@@ -1,0 +1,7 @@
+CREATE DATABASE test;
+
+CREATE TABLE test (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    some_value VARCHAR(30) NOT NULL,
+    CONSTRAINT test_pk PRIMARY KEY (id)
+);
